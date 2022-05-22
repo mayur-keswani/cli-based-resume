@@ -21,8 +21,8 @@ var welcomeBox = blessed.box({
   top: "center",
   left: "center",
   width: "50%",
-  height: "200",
-  content: "{bold}Hello Muggle!, Welcome to my Resume-World{/bold}!",
+  height: "40%",
+  content: "{bold}Hello Muggle!, Welcome to Mayur Keswani'CLI-Based-Resume {/bold}!",
   align: "center",
   valign: "middle",
   tags: true,
@@ -31,7 +31,7 @@ var welcomeBox = blessed.box({
   },
   style: {
     fg: "white",
-    bg: "#363636",
+    bg: "black",
     border: {
       fg: "red",
     },
@@ -76,7 +76,7 @@ var sectionBox = blessed.box({
   },
   style: {
     fg: "white",
-    bg: "gray",
+    bg: "black",
     hover: {
       bg: "green",
     },
@@ -127,13 +127,7 @@ var sectionOptions = blessed.list({
     },
   },
 });
-// sectionOptions.items.forEach(function (item) {
-//   item.setHover('>'+item.getText().trim());
-// });
 
-// var item = sectionOptions.items[1];
-// sectionOptions.removeItem(sectionOptions.items[1]);
-// sectionOptions.insertItem(1, item.getContent());
 
 sectionOptions.on("keydown", function (ch, key) {
   contentBox.destroy();
@@ -160,12 +154,13 @@ var content = blessed.box({
   // content: "",
   style: {
     fg: "white",
-    bg: "#363636",
+    bg: "black",
     display: "flex",
     hover: {
       bg: "green",
     },
   },
+ 
 });
 
 var contentTitle = blessed.box({
@@ -181,7 +176,7 @@ var contentTitle = blessed.box({
   },
   style: {
     fg: "white",
-    bg: "#363636",
+    bg: "black",
     hover: {
       bg: "green",
     },
@@ -200,10 +195,19 @@ var contentData = blessed.box({
   },
   style: {
     fg: "white",
-    bg: "#363636",
+    bg: "black",
 
     hover: {
       bg: "green",
+    },
+  },
+  keys: true,
+  vi: true,
+  alwaysScroll: true,
+  scrollable: true,
+  scrollbar: {
+    style: {
+      bg: "red",
     },
   },
 });

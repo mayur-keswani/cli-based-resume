@@ -23,5 +23,6 @@ MUGGLE ACADEMY
     Stack Used : Nodejs (express.js), Mongoose, EJS Templating Engine, Cloudinary.
     Description: A dashboard for school/ college/ corporate business institution to launch their video courses 
             and provide a discussion panel for posting questions.
-            Authorities can also post their photos, issue notice/articles for upcoming events, code snippets and funny stuff.
+            Authorities can also post their photos, issue notice/articles for upcoming events, code snippets 
+            and funny stuff.
     preview : https://muggle-academy.herokuapp.com/
