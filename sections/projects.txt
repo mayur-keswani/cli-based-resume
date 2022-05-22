@@ -1,0 +1,27 @@
+MUGGLEMARKET 
+    Stack Used  : Mongoose, Reactjs, RestAPI, Cloudinary, Twilia API, React Semantic UI, Stripe
+    Description : MuggleMarket Local eCommerce platform for Homemakers.
+            Instead of putting lots of stories on Whatsaap'status and creating Instagram'pages, One can create their store on MuggleMarket and list their products online.
+            Homemakers will get notified about orders via Whatsapp.
+    preview : https://mugglemarket.vercel.app
+
+KEEP CLONE 
+    Stack Used  : Reactjs, Typescript, Context API, Reducer 
+    Description : Keep Clone is a clone of the Google Keep Free Note-taking service. 
+            Allows users to quickly capture(note) what's on their mind for personal use.
+            Users can also make Todo Checklist 
+    preview : https://mayur-keep-clone.netlify.app/
+
+MUGGLEPEXELS 
+    Stack Used  : Reactjs, firebase Auth, Firebase Realtime-DB, Firebase Storage-Bucket, 
+    Description : App to get the best free stock,
+            beautiful photos,✓ High-quality ✓ , for your project and store it into a collection for later use.
+            You can also store your personal photos securely on our cloud bucket
+    preview : https://mugglepexels.netlify.app/
+
+MUGGLE ACADEMY 
+    Stack Used : Nodejs (express.js), Mongoose, EJS Templating Engine, Cloudinary.
+    Description: A dashboard for school/ college/ corporate business institution to launch their video courses 
+            and provide a discussion panel for posting questions.
+            Authorities can also post their photos, issue notice/articles for upcoming events, code snippets and funny stuff.
+    preview : https://muggle-academy.herokuapp.com/

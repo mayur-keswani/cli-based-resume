@@ -115,7 +115,6 @@ var sectionOptions = blessed.list({
     "Skills",
     "Experience",
     "Education",
-    "Hobbies",
     "Contacts",
   ],
   scrollbar: {
@@ -194,7 +193,7 @@ var contentData = blessed.box({
   parent: content,
   width: "98%",
   height: "shrink",
-  content: "Content Data!",
+  content: "No Section Selected!",
   tags: true,
   border: {
     type: "line",
